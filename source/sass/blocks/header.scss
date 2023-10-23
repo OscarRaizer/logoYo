@@ -1,0 +1,32 @@
+.header .container {
+  font-family: $ff-HalvarBreit;
+  background-color: $color-blackcurrant;
+  display: flex;
+  justify-content: center;
+  padding: 23.5px 0;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  margin: 0;
+}
+
+.header__link {
+  font-size: 16px;
+  color: $color-default-white;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  color: $color-default-white;
+  text-align: center;
+  font-size: 13.106px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.655px;
+  text-transform: uppercase;
+}
