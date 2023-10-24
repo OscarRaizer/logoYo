@@ -1,0 +1,70 @@
+.hero {
+  background-color: $tints-of-black;
+  color: $color-default-white;
+
+  .container {
+    padding-top: 77px;
+    display: grid;
+    grid-template-columns: 640px 1fr;
+    height: 830px;
+
+    @include vp-1319 {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+
+.hero__info {
+  position: relative;
+  padding-right: 40px;
+
+  h2 {
+    font-family: $ff-EurostileRoundExtended;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: auto;
+  }
+
+  p {
+    font-family: $ff-HalvarBreit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 50px;
+    width: 527px;
+    display: inline-block;
+  }
+}
+
+.hero__button {
+  position: absolute;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-transform: capitalize;
+  display: flex;
+
+  @include vp-1319 {
+    // right: 50%;
+    left: 20%;
+  }
+
+  &.button {
+    border: none;
+    background-color: transparent;
+    background-image: url("../img/sprite/ellipse.svg");
+    background-position: center;
+    width: 200px;
+    height: 200px;
+  }
+}

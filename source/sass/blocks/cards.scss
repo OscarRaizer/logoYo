@@ -1,0 +1,61 @@
+.cards {
+
+  @include vp-1319 {
+    display: none;
+  }
+}
+
+.cards__wrapper {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+
+  &--premium {
+    left: 0;
+    z-index: 10;
+
+    &:hover {
+      z-index: 11;
+      transform: scale(1.08);
+      transition: 0.5s;
+    }
+  }
+
+  &--gold {
+    right: 55px;
+    top: 114px;
+    z-index: 9;
+
+    &:hover {
+      z-index: 11;
+      transform: scale(1.08);
+      transition: 0.5s;
+    }
+  }
+
+  &--silver {
+    left: 40px;
+    top: 256px;
+    z-index: 8;
+
+    &:hover {
+      z-index: 11;
+      transform: scale(1.08);
+      transition: 0.5s;
+    }
+  }
+
+  &--standard {
+    right: 101px;
+    top: 366px;
+    z-index: 7;
+
+    &:hover {
+      z-index: 11;
+      transform: scale(1.08);
+      transition: 0.5s;
+    }
+  }
+}

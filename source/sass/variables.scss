@@ -6,11 +6,14 @@
 $color-default-black: #000000;
 $color-default-white: #ffffff;
 $color-transparent: rgba(255, 255, 255, 0);
+$color-transparent-part: rgba(255, 255, 255, 0.30);
 
 // Project palette
 // для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
 
 $color-blackcurrant: #1A191B;
+$tints-of-black: #101010;
+
 
 // Gradient
 
@@ -29,13 +32,10 @@ $ff-EurostileRoundExtended: "EurostileRoundExtended", "Arial", sans-serif;
 // Viewports
 // ---------------------------------
 
-$vp-320: 320px;
-$vp-375: 375px;
+$vp-1320: 1320px;
 $vp-768: 768px;
-$vp-1024: 1024px;
-$vp-1280: 1280px;
-$vp-1440: 1440px;
-$vp-1920: 1920px;
+$vp-320: 320px;
+
 
 // Retina
 // ---------------------------------
